@@ -1,0 +1,160 @@
+@media only screen and (max-width: 376px) {
+  .header__nav-list {
+    display: none;
+  }
+
+  .header__nav-open {
+    position: absolute;
+    left: -32px;
+    top: 55px;
+    z-index: 1;
+    display: block;
+    width: 375px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .header__nav-item {
+    padding: 10px;
+    border-bottom: 1px #d5cbcb solid;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+  }
+
+  .header__nav-item a {
+    color: #000;
+  }
+
+  .mobile-menu {
+    left: 300px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .mobile-menu_burger {
+    width: 24px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 6px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+
+  .mobile-menu:hover {
+    cursor: pointer;
+  }
+
+  .header__contact {
+    display: none;
+  }
+
+  .header {
+    width: 375px;
+    background-size: 375px 840px;
+    background-repeat: no-repeat;
+  }
+
+  .header__image {
+    width: 375px;
+    height: 830px;
+  }
+
+  .main-screen {
+    top: 1%;
+    left: 2.76%;
+    flex-wrap: wrap;
+    width: 370px;
+  }
+
+  .main-screen__about-title {
+    font-size: 28px;
+  }
+
+  .main-screen__about {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 30px;
+  }
+
+  .main-screen__about-os {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-screen__img {
+    width: 271px;
+    height: 325px;
+    margin-top: -80px;
+  }
+
+  .functional {
+    max-width: 375px;
+    margin-left: 2.76%;
+  }
+
+  .functionalContainer {
+    display: block;
+    text-align: center;
+  }
+
+  .functional__title {
+    font-size: 30px;
+  }
+
+  .functional__text {
+    font-size: 14px;
+    line-height: 124%;
+  }
+
+  .functionalContainer__first,
+  .functionalContainer__second {
+    width: 370px;
+  }
+
+  .functionalCard__left {
+    gap: 10px;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .functionalCard__right {
+    gap: 10px;
+  }
+
+  .functionalCard__title,
+  .functionalCard__left p {
+    text-align: left;
+  }
+
+  .footer {
+    width: 375px;
+    background-size: cover;
+    font-size: 14px;
+  }
+
+  .footerContainer {
+    flex-wrap: wrap;
+    border: 0;
+  }
+
+  .footerContainer__title {
+    font-size: 22px;
+    line-height: 124%;
+  }
+
+  .footerContainer__about {
+    margin-top: 50px;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  .footer__copy {
+    border-top: #ffffff 1px solid;
+    padding: 20px;
+  }
+}

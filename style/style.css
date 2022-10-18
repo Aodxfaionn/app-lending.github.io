@@ -20,6 +20,7 @@ a:hover {
 }
 
 .header {
+  min-width: 1520px;
   background-image: url(../img/header/Path\ 195.png);
 }
 
@@ -185,7 +186,7 @@ a:hover {
 }
 
 .footer {
-  background-image: url(../img/footer/footer-bg.png);
+  background: url(../img/footer/footer-bg.png) no-repeat;
 }
 
 .footerContainer {
@@ -196,15 +197,15 @@ a:hover {
   padding-top: 100px;
   color: #ffffff;
   font-size: 18px;
-line-height: 124%;
-border-bottom: #FFFFFF 1px solid;
-padding-bottom: 30px;
+  line-height: 124%;
+  border-bottom: #ffffff 1px solid;
+  padding-bottom: 30px;
 }
 
 .footerContainer__title {
   font-weight: 700;
-font-size: 28px;
-line-height: 124%;
+  font-size: 28px;
+  line-height: 124%;
 }
 
 .footerContainer__about {
@@ -227,8 +228,8 @@ line-height: 124%;
 
 .footer__copy {
   font-size: 20px;
-line-height: 124%;
-color: #FFFFFF;
-text-align: center;
-margin-top: 30px;
+  line-height: 124%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
 }
